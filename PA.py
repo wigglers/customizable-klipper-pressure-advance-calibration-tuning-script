@@ -17,7 +17,7 @@
 
 #after printing, use calipers to find the z height where your print looks best and most consistant all around
 #use this z height to calculate your best pressure advance value (your measured z height should be a multiple of your layer height)
-#your best pressure advance value=((measured_z_height/layer_height)-2)*((PA_max/PA_min)/(number_of_layers))
+#your best pressure advance value=((measured_z_height/layer_height)-2)*((PA_max-PA_min)/(number_of_layers))
 #add this calculated value to your firmware config or into your start gcode if you have that set up for different materials
 
 #modify these following parameters to match your printer and desired settings. units are (mm or mm/s or degrees Celcius just standard stuff)
